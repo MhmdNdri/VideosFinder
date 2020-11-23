@@ -1,0 +1,37 @@
+.videos{
+    display: flex;
+}
+.video-list {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:15px;
+    cursor: pointer;
+    transition: transform .3s;
+    border-bottom: 1px solid rgba(85, 76, 76, 0.76);
+    color: #3a3838bb;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.video-list:hover {
+    transform: scale(1.03);
+    color: #1d1c1ce7;
+}
+
+.video-list-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-youtube{
+    width: 80%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.video-details{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 30px;
+}
